@@ -95,10 +95,14 @@ This repository contains implementations and models related to the semantic segm
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![PyTorch][PyTorch.io]][PyTorch-url]
-* [![Python][Python.org]][Python-url]
-* [![Jupyter Lab][JupyterLab.org]][JupyterLab-url]
-* [![MLflow][MLflow.org]][MLflow-url]
+[PyTorch.io]: /logos/pytorch-logo.png
+[PyTorch-url]: https://pytorch.org/
+[Python.org]: /logos/python-logo.png
+[Python-url]: https://www.python.org/
+[JupyterLab.org]: /logos/jupyterlab-logo.svg
+[JupyterLab-url]: https://jupyter.org/
+[MLflow.org]: /logos/mlflow-logo.png
+[MLflow-url]: https://mlflow.org/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
