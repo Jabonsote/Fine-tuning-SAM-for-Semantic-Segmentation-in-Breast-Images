@@ -259,7 +259,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [JQuery-url]: https://jquery.com 
 [Pytorch.io]: https://raw.githubusercontent.com/github/explore/224672533a7f836ad6bf142e4dee61217cfc100e/topics/pytorch/pytorch.png
 [Pytorch-url]: https://pytorch.org/
-[Python.org]: [https://www.python.org/](https://logos-world.net/wp-content/uploads/2021/10/Python-Logo.png)
+[Python.org]: https://www.python.org/static/community_logos/python-logo.png
 [Python-url]: https://www.python.org/
 [JupyterLab.org]: https://nanohub.org/app/site/groups/29044/uploads/jupyter.png
 [JupyterLab-url]: https://jupyter.org/
