@@ -108,7 +108,7 @@ pip install -r requirements.txt
 The starter code supports input in Coco format with the following directory structure:
 
    ```
-    ├── dataset_/
+|   ├── dataset_/
 │   ├── train/
 │   │   ├── _annotations.coco.json  # COCO format annotation
 │   │   ├── 000001.png              # Images
