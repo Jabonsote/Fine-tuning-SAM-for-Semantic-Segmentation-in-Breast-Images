@@ -30,10 +30,10 @@
 <!-- PROJECT LOGO -->
 <br />
 
-  <h3 align="center"></h3>
+  <h1 align="center"></h1>
 
   <p align="center">
-   Fine tuning SAM for Semantic Segmentation in breast images
+  Fine tuning SAM for Semantic Segmentation in breast images
 
 </div>
 
