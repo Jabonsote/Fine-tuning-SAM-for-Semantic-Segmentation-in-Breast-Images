@@ -93,19 +93,54 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 
 
-<!-- GETTING STARTED -->
 ## Getting Started
+This repository provides an example of how to set up your project locally. Follow these simple steps to get a local copy up and running.
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+## Prerequisites
+Make sure you have the following prerequisites installed:
 
-### Prerequisites
+Python (recommended version: 3.6 or higher)
+Required Python packages (specified in requirements.txt):
+´´´
+pip install -r requirements.txt
+´´´
+## Structure
+The starter code supports input in Coco format with the following directory structure:
 
-This is an example of how to list things you need to use the software and how to install them.
+´´´
+├── dataset_/
+│   ├── train/
+│   │   ├── _annotations.coco.json  # COCO format annotation
+│   │   ├── 000001.png              # Images
+│   │   ├── 000002.png
+│   │   ├── ...
+│   ├── val/
+│   │   ├── _annotations.coco.json  # COCO format annotation
+│   │   ├── xxxxxx.png              # Images
+│   │   ├── ...
+´´´
 
-  ```
- pip install requeriments.txt
-  ```
+Ensure that your dataset adheres to this structure for seamless compatibility.
+
+Download Model Checkpoints
+Download the necessary Semantic-SAM (SAM) model checkpoints and organize your repository as follows:
+
+´´´
+├── dataset_name/                # Dataset structure as detailed above
+│   ├── ...
+├── segment-anything/            # The FAIR SAM repository
+│   ├── ...
+├── SAM/                         # SAM pretrained checkpoints
+│   ├── sam_vit_h_4b8939.pth
+│   ├── ...
+├── finetune.py
+├── ...
+
+´´´
+
+Feel free to adapt this structure to your specific use case. Happy coding! 🚀🔍
+
+Remember to replace placeholders like dataset_name with your actual dataset name and customize the instructions according to your project’s needs.
 
 ### Installation
 
