@@ -107,8 +107,8 @@ pip install -r requirements.txt
 ## Structure
 The starter code supports input in Coco format with the following directory structure:
 
-´´´
-├── dataset_/
+   ```
+    ├── dataset_/
 │   ├── train/
 │   │   ├── _annotations.coco.json  # COCO format annotation
 │   │   ├── 000001.png              # Images
@@ -118,14 +118,17 @@ The starter code supports input in Coco format with the following directory stru
 │   │   ├── _annotations.coco.json  # COCO format annotation
 │   │   ├── xxxxxx.png              # Images
 │   │   ├── ...
-´´´
+
+   ```
+
 
 Ensure that your dataset adheres to this structure for seamless compatibility.
 
 Download Model Checkpoints
 Download the necessary Semantic-SAM (SAM) model checkpoints and organize your repository as follows:
 
-´´´
+
+   ```
 ├── dataset_name/                # Dataset structure as detailed above
 │   ├── ...
 ├── segment-anything/            # The FAIR SAM repository
@@ -136,7 +139,10 @@ Download the necessary Semantic-SAM (SAM) model checkpoints and organize your re
 ├── finetune.py
 ├── ...
 
-´´´
+   ```
+
+
+
 
 Feel free to adapt this structure to your specific use case. Happy coding! 🚀🔍
 
