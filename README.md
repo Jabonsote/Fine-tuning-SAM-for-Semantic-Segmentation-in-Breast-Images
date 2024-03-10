@@ -29,25 +29,12 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
   <h3 align="center"></h3>
 
   <p align="center">
    Fine tuning SAM for Semantic Segmentation in breast images
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
+
 </div>
 
 
@@ -156,8 +143,8 @@ _For more examples, please refer to the [Documentation](https://segment-anything
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Code Fine-tuning
-- [x] Implementation ML FLow
+- [x] Code Fine-tuning
+- [] Implementation ML FLow
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
